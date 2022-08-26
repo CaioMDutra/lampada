@@ -3,7 +3,7 @@ const turnOff = document.getElementById('turnOff');
 const lamp = document.getElementById('lamp');
 
 function isBroken(){
-    return lamp.src.indexOf ('quebrada')>-1
+    return lamp.src.indexOf ('quebrada')>-1//função para verificar se a lampada está quebrada
 }
 
 function lampOn(){
