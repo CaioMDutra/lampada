@@ -9,13 +9,16 @@ function isBroken(){
 function lampOn(){
     if(!isBroken()){
     lamp.src='./images/ligada.jpg'
+    
     }
+    
 }
 
 function lampOff(){
     if(!isBroken()){
     lamp.src='./images/desligada.jpg'
     }
+    
 }
 
 function lampBroken(){

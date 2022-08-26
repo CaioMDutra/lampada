@@ -6,23 +6,27 @@ header, main{
 }
 
 .btn1{
-    width: 80px;
-    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+    width: 50px;
+    background-color: rgb(252, 248, 5);
     color: rgb(0, 0, 0);
 }
 .btn2{
-    width: 80px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    border-radius: 15%;
+    width: 50px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }   
 
 .btn1:hover{
-    width: 80px;
-    background-color: rgb(248, 230, 26);
+    border-radius: 15%;
+    width: 50px;
+    background-color: rgb(168, 160, 71);
     color: rgb(0, 0, 0);
 }
 .btn2:hover{
-    width: 80px;
-    background-color: rgb(63, 63, 63);
+    border-radius: 15%;
+    width: 50px;
+    background-color: rgb(105, 105, 105);
     color: rgb(255, 255, 255);
 }  
