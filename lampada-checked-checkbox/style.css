@@ -1,0 +1,52 @@
+header, main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.onoff_check{
+    position: absolute;
+    left: -9999px;
+}
+
+.onoff_btn{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    cursor: pointer;
+}
+.onoff_btn::before,
+.onoff_btn::after
+{
+    content: "";
+    transition: all 0.2s ease;
+}
+.onoff_btn::before{
+    display: inline-block;
+    width: 2em;
+    height: 1em;
+    background: rgb(32, 32, 32);
+    margin-right: 0.5em;
+    border-radius: 1em;
+}
+
+.onoff_btn::after{
+    position: absolute;
+    width: 0.010em;
+    top: 0.040em;
+    left: 0.090em;
+    width: 0.90em;
+    height: 00.90em;
+    border-radius: 100%;
+    background: rgb(248, 246, 246);
+    
+}
+.onoff_check:checked + .onoff_btn::before{
+    background: rgb(247, 243, 6);
+}
+.onoff_check:checked + .onoff_btn::after{
+    left: 1.025em;
+}
+
+
